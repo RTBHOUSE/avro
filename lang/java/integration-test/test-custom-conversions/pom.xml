@@ -43,7 +43,7 @@
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>avro</artifactId>
-      <version>${project.version}</version>
+      <version>1.9.1-RTB-HOUSE</version>
     </dependency>
   </dependencies>
 

@@ -99,6 +99,26 @@
     <module>perf</module>
   </modules>
 
+  <repositories>
+    <repository>
+      <id>Adpilot</id>
+      <url>http://nexus.adpilot-rtb.net:8081/content/groups/public</url>
+    </repository>
+  </repositories>
+
+  <distributionManagement>
+    <repository>
+      <id>Adpilot</id>
+      <name>Internal Releases</name>
+      <url>http://nexus.adpilot-rtb.net:8081/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>Adpilot-snapshots</id>
+      <name>Internal Snapshots</name>
+      <url>http://nexus.adpilot-rtb.net:8081/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <build>
     <!-- defines the default plugin configuration that all child projects inherit from.
       Like dependencyManagement, this provides configuration, version, and other
